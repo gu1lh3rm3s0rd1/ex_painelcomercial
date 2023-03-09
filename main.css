@@ -1,0 +1,95 @@
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+
+  *{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+
+  main{ 
+    padding: 4px;
+    min-width: 200px;
+    max-width: 1600px;
+    margin: auto;
+  }
+
+  .cards{
+    max-width: 1600px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .services{
+    display: flex;
+    align-items: center;
+  }
+
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    flex: 1;
+    margin: 5px;
+    max-width: 1600px;
+  }
+
+  .table{
+    margin: 5px;
+  }
+
+  .content > *{
+    flex: 1 1 100%;
+  }
+
+  img{
+    width: 280px;
+    height: 140px;
+    padding-top: 20px;
+  }
+
+  .imagem{
+    margin: auto;
+    text-align: center;
+  }
+
+  .estoque{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 5px;
+    max-width: 1600px;
+  }
+
+  .tb1{
+    background-color: rgb(255, 254, 199);
+  }
+
+  .tb1 .td{
+    background-color: rgb(255, 254, 199);
+  }
+
+  .tb2t{
+    background-color: rgb(255, 254, 199);
+  }
+
+  .tb2t2{
+    background-color: rgb(255, 254, 173);
+  }
+
+  .tbb2{
+    background-color: rgb(255, 253, 111);
+  }
+
+  @media (min-width: 200px) and (max-width: 1600px) {
+  
+    .services{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+  }
+
